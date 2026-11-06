@@ -1,0 +1,13 @@
+fastapi==0.115.*
+uvicorn[standard]==0.32.*
+python-multipart
+pydantic>=2.7
+langgraph>=0.2
+langchain-ollama>=0.2
+chromadb>=0.5
+rank-bm25>=0.2.2
+pypdf>=4.0
+requests
+beautifulsoup4
+streamlit>=1.38
+pytest

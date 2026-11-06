@@ -1,0 +1,31 @@
+[project]
+name = "agentic-research-assistant"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Harika", email = "harikaannapareddy416@gmail.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "beautifulsoup4>=4.15.0",
+    "chromadb>=0.5",
+    "fastapi==0.115.*",
+    "langchain-ollama>=0.2",
+    "langgraph>=0.2",
+    "pydantic>=2.7",
+    "pypdf>=4.0",
+    "pytest>=9.2.0",
+    "python-multipart>=0.0.33",
+    "rank-bm25>=0.2.2",
+    "requests>=2.34.2",
+    "streamlit>=1.38",
+    "uvicorn[standard]==0.32.*",
+]
+
+[project.scripts]
+agentic-research-assistant = "agentic_research_assistant:main"
+
+[build-system]
+requires = ["uv_build>=0.12.11,<0.13.0"]
+build-backend = "uv_build"
